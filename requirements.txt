@@ -1,2 +1,4 @@
+dependency-injector==4.31.1
 pylint~=2.7.2
 pytest~=6.2.2
+QLog==0.2.1
