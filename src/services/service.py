@@ -1,15 +1,15 @@
-""" Service class """
+"""Service class"""
 
 from abc import ABC, abstractmethod
 
 
 class Service(ABC):
-    """ Service class """
+    """Service class"""
 
     @abstractmethod
     def start(self):
-        """ Starts service """
+        """Starts service"""
 
     @abstractmethod
     def shutdown(self):
-        """ Shuts service down """
+        """Shuts service down"""

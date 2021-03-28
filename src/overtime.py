@@ -12,7 +12,6 @@ from containers import Configs, Services
 
 def main():
     """ Main """
-
     QLog.loggers = [ConsoleLogger(LogLevel.DEBUG)]
 
     # Load the config
@@ -26,7 +25,6 @@ def main():
 
 def exit_handler():
     """Exit handler"""
-
     Services.toggl_service().shutdown()
 
 
